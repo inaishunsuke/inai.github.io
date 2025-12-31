@@ -1,9 +1,0 @@
-Sub PB1_CLICKED()
-    DEFINT COUNT,ZEROCOUNT=0
-
-    FOR COUNT = 0 TO 99
-      IF I[COUNT] = 0 THEN
-        ZEROCOUNT = ZEROCOUNT + 1
-      END IF
-    NEXT
-    NB1.value = ZEROCOUNT
